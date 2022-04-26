@@ -1,0 +1,50 @@
+@media only screen and (min-width: 480px) {
+    #mainHeader {
+         background-color:#EFEF34;
+    }
+     
+    nav ul li{
+         float:left;
+         width:25%;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    #mainHeader {
+         background-color:#EDD49A;
+    }
+     
+    #mainSection{
+         float: left;
+         width: 61%;
+    }
+     
+    #sideBox1{
+         float: right;
+         width: 30%;
+    }
+     
+}
+/*
+-Desktop computers
+-This CSS will apply for devices with the minimum width of 1140 pixels
+*/
+@media only screen and (min-width: 1140px) {
+    #mainHeader {
+         background-color:#CE9429;
+    }
+     
+    #responsiveLogo{
+         float:left;
+         width:30%;
+    }
+     
+    nav{
+         float:left;
+         width:70%;
+    }
+     
+    nav ul{
+         margin:1.5em 0 0 0;
+    }
+}
